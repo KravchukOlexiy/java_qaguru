@@ -4,7 +4,7 @@ public class Car {
     double fuelConsumption;
     double tankCapacity;
 
-    double canDriveDistance () {
-        return tankCapacity/fuelConsumption*100;
+    double canDriveDistance() {
+        return tankCapacity / fuelConsumption * 100;
     }
 }

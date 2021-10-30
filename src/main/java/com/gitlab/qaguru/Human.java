@@ -17,10 +17,5 @@ public class Human {
 
     void sayWeightHeight() {
         System.out.println("My weight and height are " + weight + " and " + height);
-
     }
-
-
-
-
 }
