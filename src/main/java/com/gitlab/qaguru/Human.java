@@ -2,11 +2,14 @@ package com.gitlab.qaguru;
 
 public class Human {
 
+    String name;
+    int age;
+    int weight;
+    int height;
+    static String commonName = "Человек";
+
     //непараметризованный конструктор класса
     public Human() {
-
-        this.name = null;
-        this.age = 0;
         this.weight = 3;
         this.height = 40;
     }
@@ -19,12 +22,6 @@ public class Human {
         this.age = age;
         this.name = name;
     }
-
-    String name;
-    int age;
-    int weight;
-    int height;
-    static String commonName = "Человек";
 
     //геттер
     public int getWeight() {
